@@ -1,5 +1,7 @@
 const path = require("path");
 
+const packageName = path.parse(process.cwd()).name;
+
 module.exports = {
   plugins: [
     [
@@ -24,10 +26,26 @@ module.exports = {
     ],
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
-    "semantic-release-vsce",
-    "@semantic-release/github",
-    "@semantic-release/git"
+    [
+      "semantic-release-vsce",
+      {
+        packageVsix: `${packageName}.vsix`
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        successComment: `:tada: This \${issue.pull_request ? 'pull request' : 'issue'} has been resolved in version \${nextRelease.version} of ${packageName} :tada:`
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        message: `chore(release): ${packageName} \${nextRelease.version} [skip ci]\n\n\${nextRelease.notes}`,
+        assets: [`${packageName}.vsix`]
+      }
+    ]
   ],
   commitPaths: ["./*"],
-  tagFormat: `${path.parse(process.cwd()).name}-\${version}`
+  tagFormat: `${packageName}-\${version}`
 };
