@@ -3,7 +3,7 @@ node_js: "12"
 cache: yarn
 
 before_install:
-  - npm install -g yarn@2
+  - npm install -g yarn@berry
 
 install:
   - yarn install
