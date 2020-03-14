@@ -22,6 +22,11 @@
     "semantic-release-vsce": "^3.0.1",
     "vsce": "^1.74.0"
   },
+  "resolutions": {
+    "mem": ">=4.0.0",
+    "minimist": ">=1.2.2",
+    "acorn": ">=7.1.1"
+  },
   "scripts": {
     "deploy": "yarn workspaces run semantic-release"
   },
