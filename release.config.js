@@ -35,7 +35,7 @@ module.exports = {
     [
       "@semantic-release/github",
       {
-        successComment: `:tada: This \${issue.pull_request ? 'PR is included' : 'issue has been resolved'} in version \${nextRelease.version} of ${packageName} :tada:\n\nThe release is available on\${releases.map(({name, url}) => '- [' + name + '](' + url + ')').join('\n')}`,
+        successComment: `:tada: This \${issue.pull_request ? 'PR is included' : 'issue has been resolved'} in version \${nextRelease.version} of ${packageName} :tada:\n\nThe release is available on\${releases.map((release) => '- [' + release.name + '](' + release.url + ')').join('\n')}`,
         assets: [
           {
             path: `${packageName}.vsix`,
