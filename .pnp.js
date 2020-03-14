@@ -25,13 +25,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {
         "name": "vscode-css-modules",
         "reference": "workspace:packages/vscode-css-modules"
+      },
+      {
+        "name": "vscode-modular-css",
+        "reference": "workspace:packages/vscode-modular-css"
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.vscode\\/pnpify(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
       ["vscode-css-modules", ["workspace:packages/vscode-css-modules"]],
-      ["vscode-extensions", ["workspace:."]]
+      ["vscode-extensions", ["workspace:."]],
+      ["vscode-modular-css", ["workspace:packages/vscode-modular-css"]]
     ],
     "locationBlacklistData": [
     ],
@@ -7594,6 +7599,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.2.1"],
             ["semantic-release-plus", "npm:18.0.1"],
             ["semantic-release-vsce", "virtual:ad83ef11aed1a8b02a9c2e431574956d663b6931ca775e1eecd687eacd0635109df3ac5a160a8c1b6284ed503a9e89d6088392de93ce3cc18f31c56fa24d297a#npm:2.2.8"]
+          ],
+          "linkType": "SOFT"
+        }]
+      ]],
+      ["vscode-modular-css", [
+        ["workspace:packages/vscode-modular-css", {
+          "packageLocation": "./packages/vscode-modular-css/",
+          "packageDependencies": [
+            ["vscode-modular-css", "workspace:packages/vscode-modular-css"]
           ],
           "linkType": "SOFT"
         }]

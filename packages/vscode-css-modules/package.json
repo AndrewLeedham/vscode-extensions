@@ -49,6 +49,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "deploy": "semantic-release"
   }
 }
-

@@ -6732,6 +6732,12 @@ resolve@^1.10.0:
   languageName: unknown
   linkType: soft
 
+"vscode-modular-css@workspace:packages/vscode-modular-css":
+  version: 0.0.0-use.local
+  resolution: "vscode-modular-css@workspace:packages/vscode-modular-css"
+  languageName: unknown
+  linkType: soft
+
 "wcwidth@npm:^1.0.0":
   version: 1.0.1
   resolution: "wcwidth@npm:1.0.1"

@@ -22,7 +22,7 @@
     "semantic-release-vsce": "^2.2.8"
   },
   "scripts": {
-    "deploy": "yarn workspaces run semantic-release"
+    "deploy": "yarn workspaces foreach run deploy"
   },
   "commitlint": {
     "extends": [
