@@ -1,0 +1,37 @@
+{
+  "name": "vscode-extensions",
+  "version": "0.0.0",
+  "description": "Monorepo for my VSCode extensions.",
+  "repository": "https://github.com/AndrewLeedham/vscode-extensions",
+  "author": "Andrew Leedham <AndrewLeedham@Outlook.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@semantic-release/changelog": "^5.0.0",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.0.1",
+    "@semantic-release/release-notes-generator": "^9.0.0",
+    "husky": "^4.2.1",
+    "semantic-release-plus": "^18.0.1",
+    "semantic-release-vsce": "^2.2.8"
+  },
+  "scripts": {
+    "deploy": "yarn workspaces run semantic-release"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint --env HUSKY_GIT_PARAMS"
+    }
+  }
+}
