@@ -2,6 +2,7 @@
 
 > An extension to add [Modular CSS](https://github.com/tivac/modular-css) syntax highlighting to VSCode.
 
+[![CI Status][ci-badge]][ci-link]
 [![Visual Studio Marketplace][vscode-badge]][vscode-link]
 [![Installs][installs-badge]][installs-link]
 [![Downloads][downloads-badge]][downloads-link]
@@ -12,7 +13,7 @@
 [![Dependabot Status][dependabot-badge]][dependabot-link]
 
 
-![VSCode Window showing the plugin in action](./highlighting.png)
+![VSCode Window showing the plugin in action](https://github.com/AndrewLeedham/vscode-extensions/raw/master/packages/vscode-modular-css/highlighting.png)
 
 ## Features
 Adds the following Modular-CSS specific rule and attribute syntax highlighting on top of regular CSS.
@@ -40,6 +41,8 @@ A suggested work-around is to add the following settings to your workspace:
 ---
 [CHANGELOG](./CHANGELOG.md) | [LICENSE][license-link]
 
+[highlight-image]: https://github.com/AndrewLeedham/vscode-extensions/blob/master/
+
 [vscode-badge]: https://flat.badgen.net/vs-marketplace/v/andrewleedham.vscode-modular-css
 [vscode-link]: https://marketplace.visualstudio.com/items?itemName=andrewleedham.vscode-modular-css
 
@@ -48,6 +51,9 @@ A suggested work-around is to add the following settings to your workspace:
 
 [downloads-badge]: https://flat.badgen.net/vs-marketplace/d/andrewleedham.vscode-modular-css
 [downloads-link]: https://marketplace.visualstudio.com/items?itemName=andrewleedham.vscode-modular-css
+
+[ci-badge]: https://flat.badgen.net/travis/AndrewLeedham/vscode-extensions
+[ci-link]: https://travis-ci.org/github/AndrewLeedham/vscode-extensions
 
 [license-badge]: https://flat.badgen.net/badge/license/MIT
 [license-link]: ./LICENSE
@@ -58,5 +64,5 @@ A suggested work-around is to add the following settings to your workspace:
 [commit-style-badge]: https://flat.badgen.net/badge/commit%20style/angular/purple
 [commit-style-link]: https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines
 
-[dependabot-badge]: https://flat.badgen.net/dependabot/AndrewLeedham/vscode-modular-css?icon=dependabot
+[dependabot-badge]: https://flat.badgen.net/dependabot/AndrewLeedham/vscode-extensions?icon=dependabot
 [dependabot-link]: https://dependabot.com
