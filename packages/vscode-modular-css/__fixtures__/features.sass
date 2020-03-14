@@ -1,0 +1,20 @@
+@value male: #0000FF
+@value female: purple 
+@value one from "all"
+@value one, two from "all"
+@value * as namespace from "all"
+
+.dad
+    composes: parent from "./family"
+    background: male
+
+.mum
+    composes: parent from "family"
+    border: 1em solid female
+
+:external(child from "family")
+    composes: dad
+    composes: mum
+
+:global(.class #id)
+    background: female
