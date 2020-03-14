@@ -12,7 +12,7 @@ module.exports = {
           {
             type: "chore",
             scope: "deps",
-            subject: "/\\[security\\].*/",
+            subject: "[security]*",
             release: "patch"
           },
           {
@@ -21,7 +21,7 @@ module.exports = {
             release: "patch"
           }
         ],
-        noteKeywords: ["BREAKING CHANGE", "[security]"]
+        noteKeywords: ["BREAKING CHANGE", "SECURITY"]
       }
     ],
     "@semantic-release/release-notes-generator",
