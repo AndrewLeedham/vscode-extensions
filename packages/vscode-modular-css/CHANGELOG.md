@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/AndrewLeedham/vscode-extensions/compare/vscode-modular-css-1.3.3...vscode-modular-css-1.4.0) (2020-03-14)
+
+
+### Features
+
+* **vscode-modular-css:** add to monorepo ([3683c7e](https://github.com/AndrewLeedham/vscode-extensions/commit/3683c7ef729574a11005a324b3d41744505b6905))
+
 ## [1.3.3](https://github.com/AndrewLeedham/vscode-modular-css/compare/v1.3.2...v1.3.3) (2019-08-20)
 
 ## [1.3.2](https://github.com/AndrewLeedham/vscode-modular-css/compare/v1.3.1...v1.3.2) (2019-07-15)
