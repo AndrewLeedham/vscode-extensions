@@ -1,3 +1,5 @@
+## [1.4.3](https://github.com/AndrewLeedham/vscode-extensions/compare/vscode-modular-css-1.4.2...vscode-modular-css-1.4.3) (2020-03-14)
+
 ## [1.4.1](https://github.com/AndrewLeedham/vscode-extensions/compare/vscode-modular-css-1.4.0...vscode-modular-css-1.4.1) (2020-03-14)
 
 # [1.4.0](https://github.com/AndrewLeedham/vscode-extensions/compare/vscode-modular-css-1.3.3...vscode-modular-css-1.4.0) (2020-03-14)
