@@ -35,14 +35,19 @@ module.exports = {
     [
       "@semantic-release/github",
       {
-        successComment: `:tada: This \${issue.pull_request ? 'pull request' : 'issue'} has been resolved in version \${nextRelease.version} of ${packageName} :tada:`
+        successComment: `:tada: This \${issue.pull_request ? 'PR is included' : 'issue has been resolved'} in version \${nextRelease.version} of ${packageName} :tada:\n\nThe release is available on\${releases.map(({name, url}) => '- [' + name + '](' + url + ')').join('\n')}`,
+        assets: [
+          {
+            path: `${packageName}.vsix`,
+            label: "Visual Studio Code Extension"
+          }
+        ]
       }
     ],
     [
       "@semantic-release/git",
       {
-        message: `chore(release): ${packageName} \${nextRelease.version} [skip ci]\n\n\${nextRelease.notes}`,
-        assets: [`${packageName}.vsix`]
+        message: `chore(release): ${packageName} \${nextRelease.version} [skip ci]\n\n\${nextRelease.notes}`
       }
     ]
   ],
