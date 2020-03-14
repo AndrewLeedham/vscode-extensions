@@ -118,7 +118,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/release-notes-generator", "virtual:364cd1b8e0611bd12a95954b94540dd78e96a6dae55c9289153bcf0b62ec7fd60e192d93e06cc72a51999de142d1fd9c3df75e7505c0a568762258660a252888#npm:9.0.0"],
             ["husky", "npm:4.2.1"],
             ["semantic-release-plus", "npm:18.0.1"],
-            ["semantic-release-vsce", "virtual:ad83ef11aed1a8b02a9c2e431574956d663b6931ca775e1eecd687eacd0635109df3ac5a160a8c1b6284ed503a9e89d6088392de93ce3cc18f31c56fa24d297a#npm:2.2.8"]
+            ["semantic-release-vsce", "virtual:ad83ef11aed1a8b02a9c2e431574956d663b6931ca775e1eecd687eacd0635109df3ac5a160a8c1b6284ed503a9e89d6088392de93ce3cc18f31c56fa24d297a#npm:2.2.8"],
+            ["vsce", "npm:1.74.0"]
           ],
           "linkType": "SOFT"
         }]
@@ -7573,6 +7574,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["yazl", "npm:2.5.1"]
           ],
           "linkType": "HARD"
+        }],
+        ["npm:1.74.0", {
+          "packageLocation": "./.yarn/cache/vsce-npm-1.74.0-c466f0a799-1.zip/node_modules/vsce/",
+          "packageDependencies": [
+            ["vsce", "npm:1.74.0"],
+            ["azure-devops-node-api", "npm:7.2.0"],
+            ["chalk", "npm:2.4.2"],
+            ["cheerio", "npm:1.0.0-rc.3"],
+            ["commander", "npm:2.20.3"],
+            ["denodeify", "npm:1.2.1"],
+            ["didyoumean", "npm:1.2.1"],
+            ["glob", "npm:7.1.6"],
+            ["lodash", "npm:4.17.15"],
+            ["markdown-it", "npm:8.4.2"],
+            ["mime", "npm:1.6.0"],
+            ["minimatch", "npm:3.0.4"],
+            ["osenv", "npm:0.1.5"],
+            ["parse-semver", "npm:1.1.1"],
+            ["read", "npm:1.0.7"],
+            ["semver", "npm:5.7.1"],
+            ["tmp", "npm:0.0.29"],
+            ["typed-rest-client", "npm:1.2.0"],
+            ["url-join", "npm:1.1.0"],
+            ["yauzl", "npm:2.10.0"],
+            ["yazl", "npm:2.5.1"]
+          ],
+          "linkType": "HARD"
         }]
       ]],
       ["vscode-css-modules", [
@@ -7598,7 +7626,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/release-notes-generator", "virtual:364cd1b8e0611bd12a95954b94540dd78e96a6dae55c9289153bcf0b62ec7fd60e192d93e06cc72a51999de142d1fd9c3df75e7505c0a568762258660a252888#npm:9.0.0"],
             ["husky", "npm:4.2.1"],
             ["semantic-release-plus", "npm:18.0.1"],
-            ["semantic-release-vsce", "virtual:ad83ef11aed1a8b02a9c2e431574956d663b6931ca775e1eecd687eacd0635109df3ac5a160a8c1b6284ed503a9e89d6088392de93ce3cc18f31c56fa24d297a#npm:2.2.8"]
+            ["semantic-release-vsce", "virtual:ad83ef11aed1a8b02a9c2e431574956d663b6931ca775e1eecd687eacd0635109df3ac5a160a8c1b6284ed503a9e89d6088392de93ce3cc18f31c56fa24d297a#npm:2.2.8"],
+            ["vsce", "npm:1.74.0"]
           ],
           "linkType": "SOFT"
         }]
