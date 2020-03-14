@@ -6,12 +6,13 @@
 [![Installs][installs-badge]][installs-link]
 [![Downloads][downloads-badge]][downloads-link]
 
+[![CI Status][ci-badge]][ci-link]
 [![license MIT][license-badge]][license-link]
 [![semantic-release][semantic-release-badge]][semantic-release-link]
 [![commit style angular][commit-style-badge]][commit-style-link]
 [![Greenkeeper badge][dependabot-badge]][dependabot-link]
 
-![VSCode Window showing the plugin in action](./highlighting.png)
+![VSCode Window showing the plugin in action](https://github.com/AndrewLeedham/vscode-extensions/raw/master/packages/vscode-css-modules/highlighting.png)
 
 ## Features
 Adds the following CSS Modules specific rule and attribute syntax highlighting on top of regular CSS/SCSS/SASS.
@@ -49,6 +50,9 @@ A suggested work-around is to add the following settings to your workspace:
 [downloads-badge]: https://flat.badgen.net/vs-marketplace/d/andrewleedham.vscode-css-modules
 [downloads-link]: https://marketplace.visualstudio.com/items?itemName=andrewleedham.vscode-css-modules
 
+[ci-badge]: https://flat.badgen.net/travis/AndrewLeedham/vscode-extensions
+[ci-link]: https://travis-ci.org/github/AndrewLeedham/vscode-extensions
+
 [license-badge]: https://flat.badgen.net/badge/license/MIT
 [license-link]: ./LICENSE
 
@@ -58,5 +62,5 @@ A suggested work-around is to add the following settings to your workspace:
 [commit-style-badge]: https://flat.badgen.net/badge/commit%20style/angular/purple
 [commit-style-link]: https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines
 
-[dependabot-badge]: https://flat.badgen.net/dependabot/AndrewLeedham/vscode-css-modules?icon=dependabot
+[dependabot-badge]: https://flat.badgen.net/dependabot/AndrewLeedham/vscode-extensions?icon=dependabot
 [dependabot-link]: https://dependabot.com

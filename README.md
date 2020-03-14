@@ -2,6 +2,7 @@
 
 > Monorepo for my VSCode extensions.
 
+[![CI Status][ci-badge]][ci-link]
 [![license MIT][license-badge]][license]
 [![commit style angular][commit-style-badge]][commit-style-link]
 [![semantic-release][semantic-release-badge]][semantic-release-link]
@@ -18,8 +19,11 @@
 [vscode-modular-css]: https://github.com/AndrewLeedham/vscode-extensions/blob/master/packages/vscode-modular-css
 [css-modules-repo]: https://github.com/css-modules/css-modules
 [modular-css-repo]: https://github.com/tivac/modular-css
-[license]: ./LICENSE
 
+[ci-badge]: https://flat.badgen.net/travis/AndrewLeedham/vscode-extensions
+[ci-link]: https://travis-ci.org/github/AndrewLeedham/vscode-extensions
+
+[license]: ./LICENSE
 [license-badge]: https://flat.badgen.net/badge/license/MIT
 
 [commit-style-badge]: https://flat.badgen.net/badge/commit%20style/angular/purple
