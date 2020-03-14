@@ -8,8 +8,9 @@ before_install:
 install:
   - yarn install
 
+script:
+  - echo 'No tests yet!'
 # TODO: figure out testing strategy.
-# script:
 #   - yarn test
 
 deploy:
