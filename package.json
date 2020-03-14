@@ -23,7 +23,7 @@
     "vsce": "^1.74.0"
   },
   "scripts": {
-    "deploy": "yarn workspaces foreach run deploy"
+    "deploy": "yarn workspaces run semantic-release"
   },
   "commitlint": {
     "extends": [
