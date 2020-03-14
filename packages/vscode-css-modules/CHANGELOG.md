@@ -1,3 +1,5 @@
+## [1.2.3](https://github.com/AndrewLeedham/vscode-extensions/compare/vscode-css-modules-1.2.2...vscode-css-modules-1.2.3) (2020-03-14)
+
 ## [1.2.1](https://github.com/AndrewLeedham/vscode-extensions/compare/vscode-css-modules-1.2.0...vscode-css-modules-1.2.1) (2020-03-14)
 
 # [1.2.0](https://github.com/AndrewLeedham/vscode-extensions/compare/vscode-css-modules-1.1.4...vscode-css-modules-1.2.0) (2020-03-14)
