@@ -1,7 +1,7 @@
 {
   "name": "vscode-css-modules",
   "displayName": "CSS Modules Syntax Highlighter",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "An extension to add CSS Modules syntax highlighting to VSCode.",
   "repository": {
     "type": "git",
