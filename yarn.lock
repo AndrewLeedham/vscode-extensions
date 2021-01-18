@@ -4494,10 +4494,10 @@ semantic-release-plus@^18.2.3:
     signale "^1.2.1"
     yargs "^16.0.0"
 
-semantic-release-vsce@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/semantic-release-vsce/-/semantic-release-vsce-3.0.1.tgz#fc7ff8863ed3dd913a3102b1cf0e68e62f94fa17"
-  integrity sha512-fbRw3cQx9CO9rDVTOmazQO2JCBweGFVRVO//E4xzgVEgQaHERVJJnWcR5t7jFjNzrJ/hfRytqqLNlxhbx3X+rQ==
+semantic-release-vsce@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/semantic-release-vsce/-/semantic-release-vsce-4.0.0.tgz#d92849d12fb9985dd227439ffe98d05c27609290"
+  integrity sha512-S68owSVHeTamG879a5eofxeHPwBrt+ZFtDmhDXBe65y1OYIYq5nCZNzp6TTM0R8ZC3oCPSJhqIq3MRztik3kDQ==
   dependencies:
     "@semantic-release/error" "^2.2.0"
     commander "^4.1.1"
@@ -4507,7 +4507,6 @@ semantic-release-vsce@^3.0.1:
     node-fetch "^2.6.0"
     read-pkg-up "^7.0.1"
     semver "^7.1.3"
-    vsce "^1.73.0"
 
 semver-compare@^1.0.0:
   version "1.0.0"
@@ -5247,7 +5246,7 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-vsce@^1.73.0, vsce@^1.83.0:
+vsce@^1.83.0:
   version "1.83.0"
   resolved "https://registry.yarnpkg.com/vsce/-/vsce-1.83.0.tgz#61774e5389a8654e307c65ec392cf61534f65bcb"
   integrity sha512-gyF/xtCOFcKO+EvC0FQu5jPECHz2XKMWcw62gqwJJ22lVvlj58t49sWe1IGl9S5NpxCek+QMm6V9i/cDwGWs/Q==

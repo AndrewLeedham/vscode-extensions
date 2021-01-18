@@ -19,7 +19,7 @@
     "@semantic-release/release-notes-generator": "^9.0.0",
     "husky": "^4.3.7",
     "semantic-release-plus": "^18.2.3",
-    "semantic-release-vsce": "^3.0.1",
+    "semantic-release-vsce": "^4.0.0",
     "vsce": "^1.83.0"
   },
   "resolutions": {
