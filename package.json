@@ -20,7 +20,7 @@
     "husky": "^4.3.8",
     "semantic-release-plus": "^18.2.3",
     "semantic-release-vsce": "^4.0.1",
-    "vsce": "^1.84.0"
+    "vsce": "^1.85.0"
   },
   "resolutions": {
     "mem": ">=4.0.0",
