@@ -18,7 +18,7 @@
     "@semantic-release/github": "^7.2.3",
     "@semantic-release/release-notes-generator": "^9.0.2",
     "husky": "^6.0.0",
-    "semantic-release-plus": "^18.2.7",
+    "semantic-release-plus": "^18.3.0",
     "semantic-release-vsce": "^4.0.1",
     "vsce": "^1.88.0"
   },
